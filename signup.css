@@ -1,8 +1,8 @@
-body .form {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+body {
+    background-color: #C9FAC9;
 }
+
+
 
 body .lastName {
     padding-bottom: 20px;
@@ -22,4 +22,11 @@ body label {
     padding-right: 10px;
     display: inline-block;
 
+}
+
+body .form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
 }
