@@ -1,6 +1,8 @@
-body .form {
-    display: flex;
-    flex-direction: column;
+body {
+    background-color: #C9FAC9;
+}
+
+body .title {
     text-align: center;
 }
 
@@ -21,5 +23,22 @@ body label {
     text-align: right;
     padding-right: 10px;
     display: inline-block;
+
+}
+
+
+
+body .form {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+    border-style: double;
+    width: 400px;
+    margin-left: 50%;
+    position: relative;
+
+
 
 }
