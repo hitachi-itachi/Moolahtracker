@@ -6,6 +6,8 @@ body .title {
     text-align: center;
 }
 
+
+
 body .lastName {
     padding-bottom: 20px;
     text-align: center;
@@ -34,11 +36,15 @@ body .form {
     flex-direction: column;
     text-align: center;
     margin-top: 300px;
-    border-style: double;
-    width: 400px;
-    margin-left: 50%;
-    position: relative;
 
+
+}
+
+.form:after {
+    content: '';
+    display: block;
+    border-style: double;
+    margin-top: 19px;
 
 
 }
