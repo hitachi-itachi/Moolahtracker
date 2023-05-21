@@ -1,15 +1,9 @@
 body {
-    background-color: #CFE4A8;
-
+    background-color: #C9FAC9;
 }
 
-.form {
-    background-color: blue;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-
-
+body .title {
+    text-align: center;
 }
 
 h1 {
@@ -36,6 +30,20 @@ td {
     border: 1px solid black;
 }
 
-table {
-    width: 50%;
+
+
+body .form {
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 300px;
+
+    border-style: double;
+    width: 400px;
+    margin-left: 50%;
+    position: relative;
+
+
+
 }
