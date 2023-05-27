@@ -1,5 +1,5 @@
 body {
-    background-color: #C9FAC9;
+    background-color: #B6E5D8;
 }
 
 body .title {
@@ -30,6 +30,9 @@ td {
     border: 1px solid black;
 }
 
+table {
+    width: 50%
+}
 
 
 body .form {
@@ -38,12 +41,22 @@ body .form {
     flex-direction: column;
     text-align: center;
     margin-top: 300px;
-
+    background-color: #FAE8E0;
     border-style: double;
     width: 400px;
-    margin-left: 50%;
-    position: relative;
+    margin-left: 43%;
 
 
+}
+
+body .link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+h4 {
+    margin: 30px;
 
 }
