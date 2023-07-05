@@ -12,3 +12,29 @@ submitButton1.addEventListener('click', function (e) {
     }
 })
 
+function addrow() {
+    var date = document.getElementById('DateInput').value;
+    var expense = document.getElementById('ExpenseInput').value;
+    var amountspent = document.getElementById('AmountSpentInput').value;
+
+    var table = document.getElementById('myTable');
+
+    var newrow = table.insertRow(table.rows.length);
+
+    var dateCell = newrow.insertCell(0);
+    var ExpenseCell = newrow.insertCell(1);
+    var amountspentCell = newrow.insertCell(2);
+
+    dateCell.innerHTML = date;
+    ExpenseCell.innerHTML = expense;
+    amountspentCell.innerHTML = amountspent;
+
+
+    document.getElementById("DateInput").value = "";
+    document.getElementById("ExpenseInput").value = "";
+    document.getElementById("AmountSpentInput").value = "";
+
+
+
+}
+
